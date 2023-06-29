@@ -1,7 +1,7 @@
 # Earthquakes_HTML
-## To access my project please click [here.](https://savannahwithanh.github.io//)
+## To access my project please click [here.]([https://savannahwithanh.github.io//](https://savannahwithanh.github.io/Earthquakes_HTML/))
 
-Getting Started
+## Getting Started
 The instructions for this activity are broken into two parts:
 
 Part 1: Create the Earthquake Visualization
@@ -19,9 +19,6 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 ![image](https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/4fc21cd4-f440-4ce5-af7c-562cfadd9468)
 
-When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization. The following image is a sampling of earthquake data in JSON format:
-4-JSON
-
 Import and visualize the data by doing the following:
 
 Using Leaflet, create a map that plots all the earthquakes from your dataset based on their longitude and latitude.
@@ -36,21 +33,3 @@ Create a legend that will provide context for your map data.
 
 Your visualization should look something like the preceding map.
 
-Part 2: Gather and Plot More Data (Optional with no extra points earning)
-Plot a second dataset on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in this dataset and visualize it alongside your original data. Data on tectonic plates can be found at https://github.com/fraxen/tectonicplatesLinks to an external site..
-
-This part is completely optional; you can complete this part as a way to challenge yourself and boost your new skills.
-
-The following image is an example screenshot of what you should produce:
-
-5-Advanced
-
-Perform the following tasks:
-
-Plot the tectonic plates dataset on the map in addition to the earthquakes.
-
-Add other base maps to choose from.
-
-Put each dataset into separate overlays that can be turned on and off independently.
-
-Add layer controls to your map.
