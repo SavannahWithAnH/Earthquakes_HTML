@@ -1,6 +1,7 @@
 # Earthquakes_HTML
+## To access my project please click [here.](https://savannahwithanh.github.io//)
 
-Instructions
+Getting Started
 The instructions for this activity are broken into two parts:
 
 Part 1: Create the Earthquake Visualization
@@ -15,7 +16,8 @@ Your first task is to visualize an earthquake dataset. Complete the following st
 Get your dataset. To do so, follow these steps:
 
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the USGS GeoJSON FeedLinks to an external site. page and choose a dataset to visualize. The following image is an example screenshot of what appears when you visit this link:
-3-Data
+
+![image](https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/4fc21cd4-f440-4ce5-af7c-562cfadd9468)
 
 When you click a dataset (such as "All Earthquakes from the Past 7 Days"), you will be given a JSON representation of that data. Use the URL of this JSON to pull in the data for the visualization. The following image is a sampling of earthquake data in JSON format:
 4-JSON
