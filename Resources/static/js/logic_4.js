@@ -131,9 +131,8 @@ info.onAdd = function (map) {
 };
 
 info.update = function (props) {
-    this._div.innerHTML = '<h4>Earthquakes by Depth (Past 7 Days)</h4>' + (props ?
-        '<br>' + props.name + '</b><br />' + props.density + ' peoples / mi<sup>2</sup>'
-        : 'Click a circle for details');
+    this._div.innerHTML = '<h4>Earthquakes by Depth (Past 7 Days)</h4>' +
+        '*click a circle for details';
 };
 
     info.addTo(Smap)
