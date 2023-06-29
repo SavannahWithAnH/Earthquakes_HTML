@@ -1,5 +1,5 @@
 # Earthquakes_HTML
-## To access my project please click [here.]([https://savannahwithanh.github.io//](https://savannahwithanh.github.io/Earthquakes_HTML/))
+## To access my project please click [here.](https://savannahwithanh.github.io/Earthquakes_HTML/))
 
 ## Getting Started
 The instructions for this activity are broken into two parts:
