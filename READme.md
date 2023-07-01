@@ -1,6 +1,6 @@
 # Earthquakes_HTML 
 Javascript
-## To access my project please click [here.](https://savannahwithanh.github.io/Earthquakes_HTML/)
+### To access my project please utilize Live Server or another tool to open HTML file.
 
 ## Getting Started
 Create the Earthquake Visualization
