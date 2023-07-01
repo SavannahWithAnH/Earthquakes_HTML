@@ -6,7 +6,6 @@ Create the Earthquake Visualization
 
 <img width="542" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/583b117a-5570-4aac-93de-30fb5d343c6e">
 
-To visualize an earthquake dataset, complete the following steps:
 
 ## Fetch dataset:
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The following image is an example screenshot of what appears when you visit this link:
