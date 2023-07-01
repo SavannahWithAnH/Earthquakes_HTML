@@ -3,7 +3,7 @@
 
 ## Getting Started
 Create the Earthquake Visualization
-
+Javascript
 <img width="542" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/583b117a-5570-4aac-93de-30fb5d343c6e">
 
 
