@@ -47,7 +47,45 @@ Using d3 to extract data, and adding Leaflets GeoJson layer
 <img width="542" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/583b117a-5570-4aac-93de-30fb5d343c6e">
 
 ## Adding the legend  
-<img width="656" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/9e794eca-6272-426e-b3a5-798ed5134119">  
+    // logic 4 creates a legend for the map
+    let legend = L.control({ position: 'bottomright' });
+
+    legend.onAdd = function (map) {
+       
+        let div = L.DomUtil.create('div', 'info legend'),
+            depth = [0, 10, 25, 50, 125, 200, 300],
+            labels = [];
+
+            div.innerHTML += 'Depth (km) <br>'
+
+        for (let i = 0; i < depth.length; i ++) {
+            div.innerHTML +=
+                '<i style="background:' + markerColor(depth[i] + 1) + '"></i> ' +
+                depth[i] + (depth[i + 1] ? '&ndash;' + depth[i + 1] + '<br>' : '+');
+        }
+
+        return div;
+        };    
+
+    legend.addTo(Smap)
+
+    // custom info control
+    var info = L.control();
+
+    info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'info');
+    this.update();
+    return this._div
+    };
+
+    info.update = function (props) {
+    this._div.innerHTML = '<h4>Earthquakes by Depth (Past 7 Days)</h4>' +
+        '*click a circle for details'; 
+    };
+
+    info.addTo(Smap)
+});
+
 
 ## How to fetch the dataset
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The following image is an example screenshot of what appears when a user visits [this link](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
