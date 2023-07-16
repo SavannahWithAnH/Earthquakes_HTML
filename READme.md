@@ -15,7 +15,7 @@ Using d3 to extract data, and adding Leaflets GeoJson layer
 ## Adding the legend  
 <img width="656" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/9e794eca-6272-426e-b3a5-798ed5134119">  
 
-## Fetch dataset:
+## How to fetch the dataset
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The following image is an example screenshot of what appears when a user visits [this link](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
 
 ![image](https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/4fc21cd4-f440-4ce5-af7c-562cfadd9468)
