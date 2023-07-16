@@ -4,7 +4,41 @@ Javascript- Leaflet, HTML, CSS
 ### To access my project please utilize Live Server or another tool to open the HTML file.  
 
 ## Getting started  
-<img width="698" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/ab258000-c0e3-4668-a2af-93f232958b49">    
+     // earthquake data
+    let queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson"
+
+    // d3
+    d3.json(queryUrl).then(function (data) {
+
+    console.log(data);
+
+    // geojson layer from leafletjs documentation
+    var geojsonMarkerOptions = {
+        radius: 7,
+        fillColor: "#6a5acd",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.75
+    };
+
+    L.geoJSON(data, { 
+        pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng, geojsonMarkerOptions);
+        },
+
+        //popup with details via leaflet documentation
+        onEachFeature: function onEachFeature(feature, layer) {
+            layer.bindPopup(`
+            <h3>${feature.properties.place}</h3>
+            <hr>
+            <p>${new Date(feature.properties.time)}</p>   
+            <h3>Magnitude: ${feature.properties.mag}</h3>
+            <h3>Depth: ${feature.geometry.coordinates[2]}</h3>`);
+      }
+    }).addTo(earthquakes);
+
+    }); 
   
 Using d3 to extract data, and adding Leaflets GeoJson layer  
 
