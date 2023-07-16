@@ -26,3 +26,12 @@ Using Leaflet, I created a map that plots all the earthquakes from your dataset 
 Note: Data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes will appear larger, and earthquakes with greater depth will appear darker in color.
 * Includes popups that provide additional information about the earthquake when its associated marker is clicked.
 
+
+<br>
+<br>  
+<br>  
+
+### Questions?
+Please refer to the following:  
+[My LinkedIn Page](https://www.linkedin.com/in/savannah-porter-7a2627267/)  
+[My Email Contact](savannahnporter@gmail.com)  
