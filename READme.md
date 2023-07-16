@@ -4,7 +4,7 @@ Javascript- Leaflet, HTML, CSS
 ### To access my project please utilize Live Server or another tool to open the HTML file.  
 
 ## Getting started  
-     // earthquake data
+    // earthquake data
     let queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson"
 
     // d3
