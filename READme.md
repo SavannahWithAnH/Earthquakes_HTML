@@ -5,7 +5,7 @@ Javascript- Leaflet, HTML, CSS
 
 ## Getting started  
 <img width="698" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/ab258000-c0e3-4668-a2af-93f232958b49">  
-
+Using d3 to extract data, and Leaflets GeoJson layer  
 
 ## Earthquake Visualization
 
