@@ -6,12 +6,14 @@ Javascript- Leaflet, HTML, CSS
 ## Getting started  
 <img width="698" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/ab258000-c0e3-4668-a2af-93f232958b49">    
   
-Using d3 to extract data, and Leaflets GeoJson layer  
+Using d3 to extract data, and adding Leaflets GeoJson layer  
 
 ## Earthquake Visualization
 
 <img width="542" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/583b117a-5570-4aac-93de-30fb5d343c6e">
 
+## Adding the legend  
+<img width="656" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/9e794eca-6272-426e-b3a5-798ed5134119">  
 
 ## Fetch dataset:
 The USGS provides earthquake data in a number of different formats, updated every 5 minutes. The following image is an example screenshot of what appears when a user visits [this link](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
@@ -22,7 +24,5 @@ The USGS provides earthquake data in a number of different formats, updated ever
 Using Leaflet, I created a map that plots all the earthquakes from your dataset based on their longitude and latitude.
 
 Note: Data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Earthquakes with higher magnitudes will appear larger, and earthquakes with greater depth will appear darker in color.
-
 * Includes popups that provide additional information about the earthquake when its associated marker is clicked.
-* Includes a legend that will provide context for your map data.
 
