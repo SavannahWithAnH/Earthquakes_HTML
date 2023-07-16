@@ -84,7 +84,7 @@ Using d3 to extract data, and adding Leaflets GeoJson layer
     };
 
     info.addTo(Smap)
-});
+    });
 
 
 ## How to fetch the dataset
