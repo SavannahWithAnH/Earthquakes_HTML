@@ -1,5 +1,6 @@
-# Earthquakes_HTML 
-Javascript
+# Earthquakes
+Javascript, HTML, CSS
+
 ### To access my project please utilize Live Server or another tool to open HTML file.
 
 ## Getting Started
