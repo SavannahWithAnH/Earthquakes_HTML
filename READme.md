@@ -3,6 +3,9 @@ Javascript- Leaflet, HTML, CSS
 
 ### To access my project please utilize Live Server or another tool to open the HTML file.  
 
+## Getting started  
+<img width="698" alt="image" src="https://github.com/SavannahWithAnH/Earthquakes_HTML/assets/126124356/ab258000-c0e3-4668-a2af-93f232958b49">  
+
 
 ## Earthquake Visualization
 
